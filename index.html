@@ -1,1 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Waseem Photography | Photo & Video Editing</title>
 
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#080808;
+color:white;
+line-height:1.6;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:30px 20px;
+background:radial-gradient(circle at top,#333 0%,#111 35%,#050505 75%);
+}
+
+.hero-content{
+max-width:850px;
+}
+
+.logo{
+font-size:18px;
+letter-spacing:5px;
+color:#d4af37;
+margin-bottom:20px;
+font-weight:bold;
+}
+
+h1{
+font-size:clamp(42px,9vw,85px);
+margin-bottom:15px;
+letter-spacing:2px;
+}
+
+h1 span{
+color:#d4af37;
+}
+
+.hero p{
+color:#ccc;
+font-size:18px;
+margin:0 auto 30px;
+max-width:650px;
+}
+
+.buttons{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.whatsapp{
+background:#25D366;
+color:white;
+}
+
+.services-btn{
+border:1px solid #d4af37;
+color:#d4af37;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+section{
+padding:70px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:40px;
+}
+
+.section-title h2{
+font-size:38px;
+}
+
+.section-title span{
+color:#d4af37;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#151515;
+border:1px solid #292929;
+padding:30px 20px;
+border-radius:18px;
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+border-color:#d4af37;
+}
+
+.icon{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.card h3{
+margin-bottom:10px;
+color:#d4af37;
+}
+
+.card p{
+color:#aaa;
+}
+
+.about{
+text-align:center;
+background:#101010;
+border-radius:25px;
+padding:40px 25px;
+}
+
+.about p{
+color:#bbb;
+max-width:750px;
+margin:auto;
+}
+
+.contact{
+text-align:center;
+}
+
+.phone{
+font-size:25px;
+color:#d4af37;
+margin:15px 0 25px;
+}
+
+footer{
+text-align:center;
+padding:25px 15px;
+border-top:1px solid #222;
+color:#888;
+}
+
+footer strong{
+color:#d4af37;
+}
+
+.float-whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+width:60px;
+height:60px;
+border-radius:50%;
+background:#25D366;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+font-size:30px;
+box-shadow:0 5px 20px #000;
+z-index:100;
+}
+
+@media(max-width:600px){
+.hero{
+min-height:90vh;
+}
+
+.hero p{
+font-size:16px;
+}
+
+section{
+padding:55px 15px;
+}
+
+.section-title h2{
+font-size:30px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+<div class="hero-content">
+
+<div class="logo">WASEEM PHOTOGRAPHY</div>
+
+<h1>Waseem <span>Photography</span></h1>
+
+<p>
+Professional Photo Editing, Video Editing,
+Advertisement, Graphic Design & Social Media Services.
+</p>
+
+<div class="buttons">
+
+<a class="btn whatsapp"
+href="https://wa.me/923059987587?text=Assalam-o-Alaikum%20Waseem%20Photography%20se%20service%20ke%20liye%20rabta%20karna%20hai."
+target="_blank">
+💬 WhatsApp Us
+</a>
+
+<a class="btn services-btn" href="#services">
+View Services
+</a>
+
+</div>
+</div>
+</header>
+
+
+<section id="services">
+
+<div class="section-title">
+<h2>Our <span>Services</span></h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">📸</div>
+<h3>Photo Editing</h3>
+<p>Professional photo editing, background change and HD enhancement.</p>
+</div>
+
+<div class="card">
+<div class="icon">🎬</div>
+<h3>Video Editing</h3>
+<p>Reels, Shorts, advertisements and professional video editing.</p>
+</div>
+
+<div class="card">
+<div class="icon">🎨</div>
+<h3>Graphic Design</h3>
+<p>Logo, flex, banners, posters and social media designs.</p>
+</div>
+
+<div class="card">
+<div class="icon">💍</div>
+<h3>Wedding Design</h3>
+<p>Wedding cards, mehfil designs and beautiful event graphics.</p>
+</div>
+
+<div class="card">
+<div class="icon">🤖</div>
+<h3>AI Video</h3>
+<p>AI stories, advertisements, social media videos and creative content.</p>
+</div>
+
+<div class="card">
+<div class="icon">📱</div>
+<h3>Social Media</h3>
+<p>TikTok, YouTube and Facebook content creation and editing.</p>
+</div>
+
+</div>
+</section>
+
+
+<section>
+
+<div class="about">
+
+<div class="section-title">
+<h2>About <span>Waseem</span></h2>
+</div>
+
+<p>
+Welcome to Waseem Photography. We provide creative
+photo editing, video editing, graphic designing and
+advertisement services. Our goal is to turn your ideas
+into professional and attractive visual content.
+</p>
+
+</div>
+</section>
+
+
+<section class="contact">
+
+<div class="section-title">
+<h2>Let's <span>Work Together</span></h2>
+</div>
+
+<p>
+For photo editing, video editing, advertisement and design services:
+</p>
+
+<div class="phone">📞 0305 998 7587</div>
+
+<a class="btn whatsapp"
+href="https://wa.me/923059987587?text=Assalam-o-Alaikum%20Waseem%20Photography%20se%20service%20ke%20liye%20rabta%20karna%20hai."
+target="_blank">
+💬 Contact on WhatsApp
+</a>
+
+</section>
+
+
+<footer>
+© 2026 <strong>Waseem Photography</strong> — All Rights Reserved
+</footer>
+
+
+<a class="float-whatsapp"
+href="https://wa.me/923059987587"
+target="_blank">
+💬
+</a>
+
+</body>
+</html>
